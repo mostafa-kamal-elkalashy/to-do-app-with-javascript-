@@ -1,0 +1,186 @@
+section {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+ h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:rgb(83, 149, 224); 
+    font-weight: 200;
+}
+
+.cord{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.cord .cord-body{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cord .cord-body input{
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: rgb(83, 149, 224);;
+}
+.cord .button-body{
+    margin: auto;
+    width: 100%;
+}
+.cord .button-body button{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(83, 149, 224);
+    border: none;
+    height: 30px;
+}
+
+.h1{
+    color: rgb(49, 154, 44);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 200;
+}
+
+
+
+
+.cord-2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px 10px;
+    border-radius: 10px;
+
+
+}
+.cord-2-body{
+    margin: auto;
+    width: 100%;
+}
+#empity-task{
+
+}
+
+
+.none{
+    display: none;
+}
+
+
+
+i{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+i:hover{
+    transform: scale(1.5);
+}
+
+.invalid{
+    border: 1px solid red !important;
+}
+
+
+.div-delet{
+    padding-bottom: 10px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div-delet .btn-delet-all{
+    width: 50%;
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(110, 108, 108);
+}
+.modal{
+    display: block;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34,34,34,0.3);
+    position: fixed;
+    z-index: 65576686;
+    top: 0;
+    right: 0;
+}
+
+
+.dark-mood{
+    margin: auto;
+    width: 10%;
+    margin-bottom: 100px;
+}
+.dark-mood button{
+    width: 100%;
+}
+.dark-mood button i{
+    font-size: 20px;
+}
+
+
+.section-dark{
+    background-color: rgba(0, 0, 0, 0.462)!important;
+    color: white !important;
+    border-color: white;
+}
+.body-dark{
+    background-color: rgba(0, 0, 0, 0.986);
+}
+.modal-contentt{
+    background-color: rgba(59, 56, 56, 0.997);
+    color: white;
+}
+
+ .confarm{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34,34,34,0.3);
+    position: fixed;
+    z-index: 65576686;
+    top: 0;
+    right: 0;
+ }
+#toast{
+    display: block;
+    position: absolute;
+    opacity: 1;
+    height: auto;
+    align-items: center;
+    top: 50%;
+    left:40%;
+} 
+
+.toast-body .btns{
+    display: flex;
+    justify-content: space-between;
+}
+.counter{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
